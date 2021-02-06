@@ -16,7 +16,8 @@ class RegisterController < ApplicationController
     if @student.save!
       student_exam = @student.attend_exam(@exam)
       if student_exam.present?
-        redirect_to new_exam_register_path(@exam)
+        bypass_sign_in(student_exam)
+        redirect_to question_path(1)
       else
         redirect_to new_exam_register_path(@exam)
       end

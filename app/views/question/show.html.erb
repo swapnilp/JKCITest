@@ -1,21 +1,39 @@
 <figure class="highlight">
-  <h3> <%= @question.question %></h3>
+  <h3> <%= @question.question.question %></h3>
 </figure>
-<%= form_with @question %>
+<%= form_with(model: @question, url: update_answer_path(@question)) do |f| %>
 <figure class="highlight">
-  <h5> <%= @question.opt1 %></h5>
+  <h5><%= f.radio_button :student_answer, "opt1" %>
+    <label class="form-check-label" for="student_exams_question_student_answer_opt1">
+      <%= @question.question.opt1 %>
+    </label>
+  </h5>
 </figure>
 
 <figure class="highlight">
-  <h5> <%= @question.opt2 %></h5>
+  <h5><%= f.radio_button :student_answer, "opt2" %>
+    <label class="form-check-label" for="student_exams_question_student_answer_opt2">
+      <%= @question.question.opt2 %>
+    </label>
+  </h5>
+  
 </figure>
 
 <figure class="highlight">
-  <h5> <%= @question.opt3 %></h5>
+  <h5><%= f.radio_button :student_answer, "opt3" %>
+    <label class="form-check-label" for="student_exams_question_student_answer_opt3">
+      <%= @question.question.opt3 %>
+    </label>
+  </h5>
 </figure>
 
 <figure class="highlight">
-  <h5> <%= @question.opt4 %></h5>
+  <h5><%= f.radio_button :student_answer, "opt4" %>
+    <label class="form-check-label" for="student_exams_question_student_answer_opt4">
+      <%= @question.question.opt4 %>
+    </label>
+  </h5>
 </figure>
 
+<%= f.submit "#{@questions.count > 1 ? 'Next' : 'Finish'}", class: "btn btn-primary" %>
 <% end %>

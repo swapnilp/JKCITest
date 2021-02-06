@@ -1,4 +1,7 @@
 class StudentExam < ApplicationRecord
+
+  devise :database_authenticatable
+  
   belongs_to :student
   belongs_to :exam
   has_many :student_exams_questions
@@ -10,5 +13,17 @@ class StudentExam < ApplicationRecord
       self.student_exams_questions.new(student_id: self.student_id, student_exam_id: self.id,
                                             question_id: exam_question.question_id, exams_question_id: exam_question.id).save!
     end
+  end
+
+  def email
+    
+  end
+
+  def password_required?
+    return false 
+  end
+
+  def encrypted_password
+    return ""
   end
 end

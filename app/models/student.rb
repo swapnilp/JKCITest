@@ -8,9 +8,9 @@ class Student < ApplicationRecord
     if student_exams.where(exam_id: exam.id).present?
       return false
     else
-      exam = student_exams.new(exam_id: exam.id)
-      exam.save!
-      return exam
+      ex = student_exams.new(exam_id: exam.id)
+      ex.save(validate: false)
+      return ex
     end
   end
 
