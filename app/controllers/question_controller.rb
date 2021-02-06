@@ -8,5 +8,4 @@ class QuestionController < ApplicationController
     @exam = Exam.where(id: params[:exam_id]).first
     @question = Question.where(id: params[:id]).first
   end
-  
 end

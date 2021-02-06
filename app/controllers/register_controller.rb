@@ -14,7 +14,8 @@ class RegisterController < ApplicationController
       @student.update(student_params)
     end
     if @student.save!
-      if @student.attend_exam(@exam)
+      student_exam = @student.attend_exam(@exam)
+      if student_exam.present?
         redirect_to new_exam_register_path(@exam)
       else
         redirect_to new_exam_register_path(@exam)

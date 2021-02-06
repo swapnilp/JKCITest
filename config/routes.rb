@@ -3,6 +3,8 @@ Rails.application.routes.draw do
 
   resources :exams, only: [] do
     resources :register, only: [:new, :create]
-    resources :question, only: [:show]
   end
+  
+  resources :question, only: [:show]
+  
 end
