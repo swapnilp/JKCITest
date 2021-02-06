@@ -1,0 +1,7 @@
+class ApplicationController < ActionController::Base
+
+  
+  def find_exam
+    @exam = Exam.where(id: params[:exam_id]).first
+  end
+end

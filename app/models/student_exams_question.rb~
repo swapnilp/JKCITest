@@ -1,0 +1,8 @@
+class StudentExamsQuestion < ApplicationRecord
+
+  belongs_to :student
+  belongs_to :student_exam
+  belongs_to :exams_questions
+  belongs_to :question
+  
+end

@@ -1,0 +1,118 @@
+../../.emacs.d/emacs-tss/typescript.el: `labels' is an obsolete macro (as of 24.3); use `cl-labels' instead.
+For information about GNU Emacs and the GNU system, type C-h C-a.
+(New file)
+Saving file /Users/swapnil/work/JKCITest/app/views/question/show.html.erb...
+Wrote /Users/swapnil/work/JKCITest/app/views/question/show.html.erb
+Saving file /Users/swapnil/work/JKCITest/app/views/question/show.html.erb...
+Wrote /Users/swapnil/work/JKCITest/app/views/question/show.html.erb
+(No changes need to be saved)
+Saving file /Users/swapnil/work/JKCITest/app/controllers/question_controller.rb...
+Wrote /Users/swapnil/work/JKCITest/app/controllers/question_controller.rb
+Saving file /Users/swapnil/work/JKCITest/app/controllers/question_controller.rb...
+Wrote /Users/swapnil/work/JKCITest/app/controllers/question_controller.rb
+Saving file /Users/swapnil/work/JKCITest/app/controllers/question_controller.rb...
+Wrote /Users/swapnil/work/JKCITest/app/controllers/question_controller.rb
+(No changes need to be saved)
+Saving file /Users/swapnil/work/JKCITest/app/controllers/question_controller.rb...
+Wrote /Users/swapnil/work/JKCITest/app/controllers/question_controller.rb
+Saving file /Users/swapnil/work/JKCITest/app/controllers/question_controller.rb...
+Wrote /Users/swapnil/work/JKCITest/app/controllers/question_controller.rb
+(No changes need to be saved)
+Saving file /Users/swapnil/work/JKCITest/app/controllers/question_controller.rb...
+Wrote /Users/swapnil/work/JKCITest/app/controllers/question_controller.rb
+Saving file /Users/swapnil/work/JKCITest/app/controllers/question_controller.rb...
+Wrote /Users/swapnil/work/JKCITest/app/controllers/question_controller.rb
+Saving file /Users/swapnil/work/JKCITest/app/controllers/question_controller.rb...
+Wrote /Users/swapnil/work/JKCITest/app/controllers/question_controller.rb
+Read-Only mode enabled
+(No changes need to be saved)
+command-execute: Buffer is read-only: #<buffer question_controller.rb> [2 times]
+Read-Only mode disabled
+Saving file /Users/swapnil/work/JKCITest/app/controllers/question_controller.rb...
+Wrote /Users/swapnil/work/JKCITest/app/controllers/question_controller.rb
+Saving file /Users/swapnil/work/JKCITest/app/controllers/question_controller.rb...
+Wrote /Users/swapnil/work/JKCITest/app/controllers/question_controller.rb
+Mark set [2 times]
+Saving file /Users/swapnil/work/JKCITest/app/controllers/question_controller.rb...
+Wrote /Users/swapnil/work/JKCITest/app/controllers/question_controller.rb
+Saving file /Users/swapnil/work/JKCITest/app/controllers/question_controller.rb...
+Wrote /Users/swapnil/work/JKCITest/app/controllers/question_controller.rb
+Saving file /Users/swapnil/work/JKCITest/app/controllers/question_controller.rb...
+Wrote /Users/swapnil/work/JKCITest/app/controllers/question_controller.rb
+Saving file /Users/swapnil/work/JKCITest/app/controllers/question_controller.rb...
+Wrote /Users/swapnil/work/JKCITest/app/controllers/question_controller.rb
+Saving file /Users/swapnil/work/JKCITest/app/controllers/question_controller.rb...
+Wrote /Users/swapnil/work/JKCITest/app/controllers/question_controller.rb
+(No changes need to be saved)
+Saving file /Users/swapnil/work/JKCITest/app/controllers/question_controller.rb...
+Wrote /Users/swapnil/work/JKCITest/app/controllers/question_controller.rb
+Saving file /Users/swapnil/work/JKCITest/app/controllers/question_controller.rb...
+Wrote /Users/swapnil/work/JKCITest/app/controllers/question_controller.rb
+Saving file /Users/swapnil/work/JKCITest/app/controllers/question_controller.rb...
+Wrote /Users/swapnil/work/JKCITest/app/controllers/question_controller.rb
+Saving file /Users/swapnil/work/JKCITest/app/controllers/question_controller.rb...
+Wrote /Users/swapnil/work/JKCITest/app/controllers/question_controller.rb
+Saving file /Users/swapnil/work/JKCITest/app/controllers/question_controller.rb...
+Wrote /Users/swapnil/work/JKCITest/app/controllers/question_controller.rb
+Saving file /Users/swapnil/work/JKCITest/app/controllers/question_controller.rb...
+Wrote /Users/swapnil/work/JKCITest/app/controllers/question_controller.rb
+(No changes need to be saved) [2 times]
+Read-Only mode enabled
+(No changes need to be saved) [2 times]
+Read-Only mode enabled
+Read-Only mode disabled
+(No changes need to be saved)
+Saving file /Users/swapnil/work/JKCITest/app/views/question/show.html.erb...
+Wrote /Users/swapnil/work/JKCITest/app/views/question/show.html.erb
+Saving file /Users/swapnil/work/JKCITest/app/views/question/show.html.erb...
+Wrote /Users/swapnil/work/JKCITest/app/views/question/show.html.erb
+Saving file /Users/swapnil/work/JKCITest/app/views/question/show.html.erb...
+Wrote /Users/swapnil/work/JKCITest/app/views/question/show.html.erb
+(No changes need to be saved) [3 times]
+Saving file /Users/swapnil/work/JKCITest/app/views/question/show.html.erb...
+Wrote /Users/swapnil/work/JKCITest/app/views/question/show.html.erb
+(No changes need to be saved)
+Read-Only mode enabled
+(No changes need to be saved) [2 times]
+Mark set [2 times]
+Saving file /Users/swapnil/work/JKCITest/config/routes.rb...
+Wrote /Users/swapnil/work/JKCITest/config/routes.rb
+Saving file /Users/swapnil/work/JKCITest/config/routes.rb...
+Wrote /Users/swapnil/work/JKCITest/config/routes.rb
+(No changes need to be saved)
+Saving file /Users/swapnil/work/JKCITest/config/routes.rb...
+Wrote /Users/swapnil/work/JKCITest/config/routes.rb
+Saving file /Users/swapnil/work/JKCITest/config/routes.rb...
+Wrote /Users/swapnil/work/JKCITest/config/routes.rb
+Read-Only mode enabled
+(No changes need to be saved) [3 times]
+delete-backward-char: Buffer is read-only: #<buffer routes.rb>
+(No changes need to be saved)
+Read-Only mode disabled
+(No changes need to be saved)
+Read-Only mode enabled
+(No changes need to be saved) [2 times]
+Quit
+(No changes need to be saved) [2 times]
+call-interactively: Buffer is read-only: #<buffer routes.rb> [5 times]
+Read-Only mode disabled
+Saving file /Users/swapnil/work/JKCITest/config/routes.rb...
+Wrote /Users/swapnil/work/JKCITest/config/routes.rb
+Read-Only mode enabled
+(No changes need to be saved) [2 times]
+Read-Only mode disabled
+Read-Only mode enabled
+Read-Only mode disabled
+(No changes need to be saved) [2 times]
+Read-Only mode enabled
+Saving file /Users/swapnil/work/JKCITest/config/routes.rb...
+Wrote /Users/swapnil/work/JKCITest/config/routes.rb
+Buffer is read-only: #<buffer routes.rb>
+Read-Only mode disabled
+Saving file /Users/swapnil/work/JKCITest/config/routes.rb...
+Wrote /Users/swapnil/work/JKCITest/config/routes.rb
+Saving file /Users/swapnil/work/JKCITest/config/routes.rb...
+Wrote /Users/swapnil/work/JKCITest/config/routes.rb
+Read-Only mode enabled
+(No changes need to be saved)
+completing-read-default: Command attempted to use minibuffer while in minibuffer

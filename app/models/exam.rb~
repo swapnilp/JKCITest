@@ -1,0 +1,7 @@
+class Exam < ApplicationRecord
+  
+  has_many :exams_questions
+  has_many :student_exams
+
+  
+end

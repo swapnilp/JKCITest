@@ -1,0 +1,11 @@
+-*- mode: compilation; default-directory: "~/work/JKCITest/app/assets/stylesheets/" -*-
+Compilation started at Sat Feb  6 17:43:53
+
+sass  --update '/Users/swapnil/work/JKCITest/app/assets/stylesheets/'
+[31m      error /Users/swapnil/work/JKCITest/app/assets/stylesheets/application.scss (Line 21: Undefined variable: "$gray-100".)
+[0m[32m      write /Users/swapnil/work/JKCITest/app/assets/stylesheets/question.css
+[0m[32m      write /Users/swapnil/work/JKCITest/app/assets/stylesheets/question.css.map
+[0m[32m      write /Users/swapnil/work/JKCITest/app/assets/stylesheets/register.css
+[0m[32m      write /Users/swapnil/work/JKCITest/app/assets/stylesheets/register.css.map
+[0m
+Compilation exited abnormally with code 1 at Sat Feb  6 17:43:54
