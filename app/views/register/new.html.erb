@@ -2,10 +2,16 @@
 <div class="form-group">
   <label for="student_name">Full Name</label>
   <%= form.text_field :name, class: "form-control" %>
+  <div>
+    <%= inline_errors(@student, :name) %>
+  </div>
 </div>
 <div class="form-group">
   <label for="student_mobile">Mobile</label>
   <%= form.text_field :mobile, class: "form-control" %>
+  <div id="mobile_errors">
+    <%= inline_errors(@student, :mobile) %>
+  </div>
 </div>
 <div class="form-group">
   <label for="student_address">Address</label>

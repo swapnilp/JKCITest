@@ -13,16 +13,20 @@ class RegisterController < ApplicationController
     else
       @student.update(student_params)
     end
-    if @student.save!
+
+    if @student.save
       student_exam = @student.attend_exam(@exam)
       if student_exam.present?
         bypass_sign_in(student_exam)
         redirect_to question_path(1)
       else
-        redirect_to new_exam_register_path(@exam)
+        redirect_to new_exam_register_path(@exam), notice: "Exam Already Attempted"
       end
     else
-      render :new
+      respond_to do |format|
+        format.html {render 'new'}
+        format.js
+      end
     end
   end
 

@@ -1,0 +1,2 @@
+module StudentExams::SessionsHelper
+end
