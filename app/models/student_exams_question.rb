@@ -6,5 +6,11 @@ class StudentExamsQuestion < ApplicationRecord
   belongs_to :question
 
   scope :remaining, -> { where(student_answer: nil) }
+
+  def check_exam
+    unless student_answer.nil?
+      self.update(is_correct: self.question.answer == self.student_answer)
+    end
+  end
   
 end
