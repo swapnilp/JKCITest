@@ -26,4 +26,20 @@ class StudentExam < ApplicationRecord
   def encrypted_password
     return ""
   end
+
+  def unsolved_questions
+    student_exams_questions.map(&:student_answer).select(&:blank?).count
+  end
+
+  def solved_questions
+    student_exams_questions.map(&:student_answer).reject(&:blank?).count
+  end
+
+  def marks
+    student_exams_questions.map(&:is_correct).count(true)
+  end
+
+  def student_data
+    {name: student.name, mobile: student.mobile, unsolved: unsolved_questions, solved: solved_questions, marks: marks}
+  end
 end
