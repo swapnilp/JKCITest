@@ -40,6 +40,6 @@ class StudentExam < ApplicationRecord
   end
 
   def student_data
-    {name: student.name, mobile: student.mobile, unsolved: unsolved_questions, solved: solved_questions, marks: marks}
+    {name: student.name, mobile: student.mobile, unsolved: unsolved_questions, solved: solved_questions, marks: marks, date: created_at.to_date}
   end
 end
